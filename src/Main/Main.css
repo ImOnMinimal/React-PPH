@@ -1,0 +1,193 @@
+
+.cartochkaMain{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    margin:10px;
+    justify-content: center;
+    
+}
+.carti{
+    display: flex;
+    width: 1400px;
+    justify-content: center;
+    margin: auto;
+}
+.cartochka{
+    
+    /* display: flex;
+    position: absolute; */
+    display: inline;
+    width: 290px;
+    height: 440px;
+    background-color: white;
+    /* border-radius: 20px; */
+    /* box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25); */
+    margin-top: 100px;
+    list-style: none;
+    /* margin: auto; */
+    position: relative;
+    
+    /* left: 20px; */
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    /* bottom: -250px; */
+    border-radius: 20px;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    
+} 
+
+
+.imgcartochka{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin: auto;
+    width: 250px;
+    height: 333px;
+    object-fit: contain; /* или 'cover', 'fill', 'none', 'scale-down' */
+}
+
+.favimg{
+    display: flex;
+    position: relative;
+    left: 244px;
+    bottom: 430px;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+    transition-property: all;
+    transition: all ease 0.7s;
+}
+
+.favimg:hover{
+    opacity: 0;
+}
+
+.favimg2{
+    display: flex;
+    position: relative;
+    left: 244px;
+    bottom: 450px;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+
+}
+
+.cartochka1{
+    display: inline-block;
+    width: 100%;
+}
+
+.costcart{
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 17px;
+    width: 140px;
+}
+
+.textcart{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+    width: 95px;
+}
+
+.imgcart{
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0;
+    margin-right: 5px;
+    position: relative;
+    left: 10px;
+    margin-top: 10px;
+}
+
+.cartochka2{
+    display: inline-block;
+}
+
+.storename{
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+    position: relative;
+    top: 5px;
+    margin-left: 17px;
+    width: 100px;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    
+}
+
+.palka{
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+}
+
+.itemname{
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    position: relative;
+    left: 15px;
+    top: 5px;
+    width: 157px;
+    opacity: 0.7;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+
+.starimgCard{
+    display: inline-block;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin: 0;
+    margin-left: 14px;
+    
+    position: relative;
+    bottom: 5px;
+    margin-top: 10px;
+        
+    
+}
+
+.ratingCard{
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+    position: relative;
+    bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 25px;
+    border-right: 1px solid black;
+}
+
+.reviewsCard{
+    display: inline-block;
+    font-size: 11px;
+    margin: 0;
+    position: relative;
+    bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 70px;
+    opacity: 0.7;
+    
+}

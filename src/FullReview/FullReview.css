@@ -1,0 +1,96 @@
+.FullReviewMain{
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+
+hr{
+    width: 650px;
+    position: relative;
+    margin-left: 40px;
+    
+}
+
+
+.rrr{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 0;
+    left: 440px;
+}
+.Review{
+    display: flex;
+    position: relative;
+    left: 4%;
+    width: 600px;
+    height: 170px;
+    margin: 0;
+    margin-left: 40px;
+    list-style: none;
+    margin-top: 5px;
+    
+}
+
+.Reviewimg{
+    display: flex;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: auto 0;
+    width: 40px;
+    height: 170px;
+}
+
+.ReviewRating{
+
+}
+
+.UserReview{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.ReviewText{
+    display: flex;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: auto 0;
+    width: 450px;
+    /* height: 100px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.UserName{
+    min-width: 100px;
+    height: 20px;
+    font-size: 11px;
+    position: absolute;
+    bottom: 90px;
+}
+
+.DataPost{
+    min-width: 100px;
+    height: 20px;
+    font-size: 11px;
+    position: absolute;
+    bottom: 73px;
+}
+
+.TextRev{
+    width: 440px; 
+    height: 70px;
+    font-size: 12px;
+    position: relative; 
+    top: 7px;
+}
